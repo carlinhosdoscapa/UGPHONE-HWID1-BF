@@ -105,4 +105,21 @@ getgenv().id = "1037147029614362624"
 getgenv().Script_Mode = "Kaitun_Script"
 loadstring(game:HttpGet("https://raw.githubusercontent.com/xshiba/MaruBitkub/main/Mobile.lua"))()
 
-_G.Config = { UserID = "2ecc7ebd-4788-47be-b07d-43dd6589ac94", discord_id = 1037147029614362624 , Note = "UGPHONE", } loadstring(game:HttpGet("https://raw.githubusercontent.com/skadidau/unfazedfree/main/trackstatblox"))()
+
+
+getgenv().Hermanos_Settings = {
+	['key'] = 'f0b60f7a-9097-478e-92ea-ab1541043a54',
+	['PC'] = 'UGPHONE',
+
+	['webhooks'] = {
+		['fullmoon'] = 'https://discord.com/api/webhooks/',
+		['mirage'] = 'https://discord.com/api/webhooks/',
+	},
+
+	['Sword'] = {'Cursed Dual Katana', 'Shark Anchor', 'Tushita', 'Yama', 'Dark Dagger', 'Hallow Scythe', 'Saber'},
+	['Gun'] = {'Soul Guitar', 'Serpent Bow', 'Kabucha', 'Acidum Rifle'},
+	['Accessories'] = {'Dark Coat', 'Leviathan Shield','Leviathan Crown', 'Pale Scarf', 'Kitsune Mask', 'Kitsune Ribbon'},
+	['Fruit'] = {'Kitsune', 'Leopard', 'Dragon',  'Spirit', 'Control', 'Venom', 'Shadow', 'Dough','Mammoth', 'T-Rex'},
+}
+task.spawn(function() loadstring(game:HttpGet('https://raw.githubusercontent.com/hermanos-dev/hermanos-script/main/script.lua'))() end)
+	
